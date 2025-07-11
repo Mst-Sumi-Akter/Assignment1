@@ -8,7 +8,7 @@
   font-style: normal;
 }
 .header{
-    height: 698px;
+    max-height: 698px;
     background-image:url(../Assets/Hero-bg.png) ;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,6 +44,7 @@ div ul li {
     border: none;
     padding: 12px 36px;
     border-radius: 12px;
+    text-align: center;
     
 }
 .btn-primary:hover {
@@ -65,6 +66,7 @@ div ul li {
 main{
     max-width: 1140px;
     margin: 0 auto;
+    text-align: ;
 }
 .rectangle-shape{
       width: 300px;
@@ -100,7 +102,7 @@ main{
 
 }
 .rectangle-shape1{
-     width: 880px;
+      width: 880px;
       height: 364.77px;
       background-image: url('../Assets/wc-big.png');
       background-size: cover;
@@ -133,10 +135,6 @@ main{
 section {
   margin-bottom: 100px;
 }
-.section-column{
-    width: 50%;
-}
-
 .info input[type="text"],  .info input[type="email"], .info textarea{
     height: 64px;
     border-radius: 5px;
@@ -151,6 +149,7 @@ section {
     background-color: #c8c6f8;
     padding: 30px 80px;
     border-radius: 30px;
+    max-width: 1200px;
 }
 .title{
     text-align: center;
@@ -181,7 +180,7 @@ section {
 }
 .focus {
   text-align: center;
-  padding: 100px 50px;
+  padding: 71px 150px;
   background-color: #fff;
   border-radius: 30px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -191,6 +190,10 @@ section {
   justify-content: space-between;
   background-color: #f8f7f7;
   padding: 80px 100px;
+}
+.section-title{
+    font-size: bold;
+    font-weight: 97px;
 }
 .footer {
   background-color: #fff;
