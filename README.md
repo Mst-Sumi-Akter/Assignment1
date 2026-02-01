@@ -1,4 +1,4 @@
-Complete My firt assignment 
+Complete My first assignment 
 
 GitHub Repository: https://github.com/Mst-Sumi-Akter/Assignment1
 
